@@ -51,6 +51,7 @@
 		576F08BB1E9B65F00067D018 /* VXDataPageServiceProcotolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VXDataPageServiceProcotolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		576F08BF1E9B65F00067D018 /* VXDataPageServiceProcotolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VXDataPageServiceProcotolUITests.m; sourceTree = "<group>"; };
 		576F08C11E9B65F00067D018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		576F08CE1E9B66290067D018 /* VXDataPageServiceProcotol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXDataPageServiceProcotol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		576F08991E9B65F00067D018 /* VXDataPageServiceProcotol */ = {
 			isa = PBXGroup;
 			children = (
+				576F08CD1E9B660E0067D018 /* VXDataPageServiceProcotol */,
 				576F089D1E9B65F00067D018 /* AppDelegate.h */,
 				576F089E1E9B65F00067D018 /* AppDelegate.m */,
 				576F08A01E9B65F00067D018 /* ViewController.h */,
@@ -138,6 +140,14 @@
 				576F08C11E9B65F00067D018 /* Info.plist */,
 			);
 			path = VXDataPageServiceProcotolUITests;
+			sourceTree = "<group>";
+		};
+		576F08CD1E9B660E0067D018 /* VXDataPageServiceProcotol */ = {
+			isa = PBXGroup;
+			children = (
+				576F08CE1E9B66290067D018 /* VXDataPageServiceProcotol.h */,
+			);
+			path = VXDataPageServiceProcotol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
